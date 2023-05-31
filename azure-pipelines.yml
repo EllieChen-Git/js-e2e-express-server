@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: 'vmss-agentpool'
+pool: 'vmss-02'
   # vmImage: ubuntu-latest
 
 steps:
