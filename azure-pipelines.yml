@@ -6,9 +6,8 @@
 trigger:
 - main
 
-pool:
+pool: 'vmss-agentpool'
   # vmImage: ubuntu-latest
-  pool: vmss-agentpool
 
 steps:
 - task: NodeTool@0
